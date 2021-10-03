@@ -14,6 +14,10 @@
 		D757988327094CB8005F6D09 /* cibertec_examen_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D757988127094CB8005F6D09 /* cibertec_examen_1.xcdatamodeld */; };
 		D757988527094CBA005F6D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D757988427094CBA005F6D09 /* Assets.xcassets */; };
 		D757988827094CBA005F6D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D757988627094CBA005F6D09 /* LaunchScreen.storyboard */; };
+		D7579893270964D1005F6D09 /* Account+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D757988F270964D1005F6D09 /* Account+CoreDataClass.swift */; };
+		D7579894270964D1005F6D09 /* Account+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7579890270964D1005F6D09 /* Account+CoreDataProperties.swift */; };
+		D7579895270964D1005F6D09 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7579891270964D1005F6D09 /* User+CoreDataClass.swift */; };
+		D7579896270964D1005F6D09 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7579892270964D1005F6D09 /* User+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		D757988427094CBA005F6D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D757988727094CBA005F6D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D757988927094CBA005F6D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D757988F270964D1005F6D09 /* Account+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D7579890270964D1005F6D09 /* Account+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D7579891270964D1005F6D09 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D7579892270964D1005F6D09 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 		D757987727094CB8005F6D09 /* cibertec_examen_1 */ = {
 			isa = PBXGroup;
 			children = (
+				D757989827096543005F6D09 /* Account */,
+				D75798972709652D005F6D09 /* User */,
 				D757987827094CB8005F6D09 /* AppDelegate.swift */,
 				D757987A27094CB8005F6D09 /* SceneDelegate.swift */,
 				D757987C27094CB8005F6D09 /* ViewController.swift */,
@@ -68,6 +78,24 @@
 				D757988127094CB8005F6D09 /* cibertec_examen_1.xcdatamodeld */,
 			);
 			path = cibertec_examen_1;
+			sourceTree = "<group>";
+		};
+		D75798972709652D005F6D09 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D7579891270964D1005F6D09 /* User+CoreDataClass.swift */,
+				D7579892270964D1005F6D09 /* User+CoreDataProperties.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D757989827096543005F6D09 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				D757988F270964D1005F6D09 /* Account+CoreDataClass.swift */,
+				D7579890270964D1005F6D09 /* Account+CoreDataProperties.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +168,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7579894270964D1005F6D09 /* Account+CoreDataProperties.swift in Sources */,
 				D757988327094CB8005F6D09 /* cibertec_examen_1.xcdatamodeld in Sources */,
+				D7579896270964D1005F6D09 /* User+CoreDataProperties.swift in Sources */,
+				D7579893270964D1005F6D09 /* Account+CoreDataClass.swift in Sources */,
 				D757987D27094CB8005F6D09 /* ViewController.swift in Sources */,
 				D757987927094CB8005F6D09 /* AppDelegate.swift in Sources */,
 				D757987B27094CB8005F6D09 /* SceneDelegate.swift in Sources */,
+				D7579895270964D1005F6D09 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
