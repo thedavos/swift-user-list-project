@@ -13,3 +13,6 @@ Además, al hacer tap en un usuario se desplegara un alert con una corta descrip
 
 ### Lista de usuarios con el usuario nuevo creado
 <img src="./screen3.png" width="300" />
+
+### Pantalla con el aviso desplegado
+<img src="./screen4.png" width="300" />
